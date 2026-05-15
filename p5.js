@@ -8,9 +8,10 @@ function draw() {
   if(backgroundNum == 1){
   }
   if(backgroundNum == 2){
-    drawMyBackground3();
+    
   }
   if(backgroundNum == 3){
+    drawMyBackground3();
   }
  
   function keyPressed(){
