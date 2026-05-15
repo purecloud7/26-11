@@ -14,7 +14,11 @@ function draw() {
     drawMyBackground3();
   }
  
-  function keyPressed(){
+  drawMouseCursor();
+
+}
+
+function keyPressed(){
     if(key == '1'){
       backgroundNum = '1'
     }
@@ -26,4 +30,3 @@ function draw() {
     backgroundNum = '3'
   }
   }
-}
