@@ -6,13 +6,16 @@ function draw() {
   background(220);
 
   if(backgroundNum == 1){
+    // drawMyBackground1()
   }
   if(backgroundNum == 2){
   }
   if(backgroundNum == 3){
   }
+  //drawMouseCursor()
  
-  function kePressed(){
+}
+  function keyPressed(){
     if(key == '1'){
       backgroundNum = '1'
     }
@@ -24,4 +27,3 @@ function draw() {
     backgroundNum = '3'
   }
   }
-}
