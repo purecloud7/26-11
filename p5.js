@@ -12,7 +12,7 @@ function draw() {
      drawMyBackground2()
   }
   if(backgroundNum == 3){
-    // drawMyBackground3()
+    drawMyBackground3()
   }
   //drawMouseCursor()
  
